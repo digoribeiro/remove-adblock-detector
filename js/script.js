@@ -1,9 +1,8 @@
 function removeAdblock() {
-  $('body').css({ overflow: 'scroll' });
-  $('#detecta-adblock').hide();
-  console.log('énois manés');
+  document.querySelector('body').style.overflow = 'scroll';
+  document.getElementById('detecta-adblock').style.display ='none';
 }
 
-$(window).bind("load", function() {
+window.onload = function() {
   removeAdblock();
-});
+};
