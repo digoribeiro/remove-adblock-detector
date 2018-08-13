@@ -1,4 +1,4 @@
-# Remove Detector Adblock globo.com
+# Remove Detector Adblock
 Google Chrome Extension for remove adblock detector
 
 ## License
